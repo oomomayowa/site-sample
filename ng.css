@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 10px;
+    font-weight: 200;
+    width: 100%;
+    z-index: 50;
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+ background-color: #fff;
+ height: 100px;
+}
+.links{
+    display: flex;
+    gap:50px;
+    margin-right: 90px;
+    margin-top: 50px;
+    list-style: none;
+    font-size: 18px;
+    color: #081f89;
+}
+.logo{
+    padding-left:20px;
+    padding-top: 20px;
+    width: auto;
+    height:70px;
+}
+.study{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    /* margin-right: 60px; */
+    gap: 70px;
+   padding-top:0px;
+}
+.text h1{
+    margin-left: 70px;
+    margin-top: 150px;
+    color: #1a0052!important;
+    text-align: left;
+    word-wrap: break-word;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.1em;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+}
+.learn{
+    margin-left: 60px;
+    font-size: 16px;
+    word-wrap: break-word;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    line-height:2.1rem;
+}
+.text input{
+    font-size: 19px;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    background-color: #001f8a;
+    color: #fff;
+    width: 180px;
+    height: 55px;
+    border-radius: 12px;
+
+}
+.sqimodel{border-radius: 10px 10px 30px 150px;
+    margin-top: 90px;
+}
+.icon{
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.icon h3{
+    font-family:'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    color: #1a0052;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 1.2em;
+    padding-bottom: 50px;
+    margin-left: 100px;
+}
+.icons{
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    width: auto;
+    max-width: 1080px;
+    position: relative;
+    margin: auto;
+}
+.r1{
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+.r2{
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+.r3{
+    padding-left: 200px;
+}
+.africa{
+    background-color: rgba(0,178,255,0.06)!important; 
+    padding-top: 90px;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    margin-top: 90px;
+}
+.africa{
+display: flex;
+gap: 100px;
+}
+.africa h2{
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #1a0052;
+}
+.textAfrica p{
+padding-top: 40px;
+font-size:19px;
+font-weight: 500;
+word-wrap: break-word;
+color: #666;
+padding-right: 50px;
+}
+.textcourse{
+font-size: 23px;
+margin-left: 150px;
+padding-top: 50px;
+font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif; 
+}
+.textcourse p{
+    font-size: medium;
+    padding-top: 25px;
+    color: #331;
+}
+.software{
+    border: 1px solid white;
+    width: 30.25%;
+    height: 600px;
+    padding-left: 30px;
+    background-color: #d6ebf2;
+    border-radius: 24px 24px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    display: block;
+    background-color: rgba(136,196,221,0.35);
+   line-height: 1.2rem;
+   font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+   color: #333;
+   margin-left: 60px;
+   position: relative;
+   top: 70px;
+   box-shadow: 10px 10px 5px 12px #edf1e8;
+
+}
+.softwareEng{
+    width: 95%;
+    border-radius: 24px 24px 24px 24px;
+    
+}
+.software h2{
+    padding-top: 50px;
+    color: #333;
+}
+.software p{
+    padding-top: 40px;
+    color: #333;
+}
+.dataScience{
+    border: 0px solid black;
+    width: 30.25%;
+    height: 600px;
+    padding-left: 30px;
+    background-color: #eeefbd;
+    border-radius: 24px 24px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    display: block;
+   line-height: 1.2rem;
+   font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+   color: #333;
+   margin-left: 50px;
+   position: absolute;
+   top: 2090px;
+   left: 600px;
+   box-shadow: 10px 10px 5px 12px #ffefee;
+}
+
+.dataScience img{
+    width: 95%;
+    border-radius: 24px 24px 24px 24px;}
+   .dataScience h2{
+        padding-top: 50px;
+        color: #333;}
+
+        .dataScience p{
+            padding-top: 40px;
+            color: #333;
+        }
+ .ui    {
+            border: 0px solid #fff;
+            width: 30.25%;
+            height: 610px;
+            padding-left: 30px;
+            background-color: #e3f0e2;
+            border-radius: 24px 24px;
+            padding-left: 60px;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            padding-right: 60px;
+            display: block;
+           line-height: 1.2rem;
+           font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+           color: #333;
+           margin-left: 50px;
+           position: relative;
+           top: 170px;
+           left: 0px;
+           box-shadow: 10px 10px 5px 12px #edf1e8;
+        }       
+.ui img{
+    width: 95%;
+    border-radius: 24px 24px 24px 24px;}
+    .ui h2{
+        padding-top: 50px;
+        color: #333;
+    }
+.ui p{
+    padding-top: 40px;
+    color: #333;
+}
+.dgl {
+    border: px solid black;
+    width: 30.25%;
+    height: 700px;
+    padding-left: 30px;
+    background-color: #dfd4e9;
+    border-radius: 24px 24px;
+    padding-left: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+    display: block;
+   line-height: 1.2rem;
+   font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif;
+   color: #333;
+   margin-left: 60px;
+   position: absolute;
+   top: 2950px;
+   left: 620px;
+   box-shadow: 10px 10px 5px 12px #ffe2dd;
+   
+}    
+.dgl img{
+    width: 95%;
+    border-radius: 24px 24px 24px 24px;}
+
+    .dgl h2{
+        padding-top: 50px;
+        color: #333;
+    }
+.dgl p{
+    padding-top: 40px;
+    color: #333;
+}

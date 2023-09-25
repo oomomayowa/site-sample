@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    width: 80px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.ul{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    margin: 35px;
+    color: blue;
+     
+}
+.ul :hover{
+    color: red;
+}
+.div1{
+    background:linear-gradient(rgba(200, 0,89, 0.1), rgba(21, 185, 6, 0.4)), url(image/main.jpg);
+    text-align: center;
+    background-size: cover;
+    padding: 200px;
+    /* background: rgba(0, 0, 0, 0.5), linear-gradient(122, 122, 210 0.8); */
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.bt{
+    width: 110px;
+    height: 50px;
+    background-color: rgb(19, 19, 89);
+    color: white;
+    font-size: medium;
+    border: #000442;
+}
+.h12{
+    text-align: center;
+    margin: 50px;
+}
+.div2{
+    display: flex;
+    padding: 50px;
+    margin-left: 100px;
+    
+}
+
+i{
+font-size: 100px;
+}
+.div3{
+   background-color:#000442;
+   width: 255px;
+   text-align: center;
+   color: white;
+   padding: 25px 15px;
+   margin: 0 25px;
+}
+.div4{
+    background-color:rgb(172, 149, 19);
+    width: 255px;
+    text-align: center;
+    color: white;
+    padding: 25px 15px;
+    margin: 0 25px;
+}
+.div5{
+    background-color:#000442;
+    width: 255px;
+    text-align: center;
+    color: white;
+    padding: 25px 15px;
+    margin: 0 25px;
+}
+.div6{
+    background-image: url(image/yal.jpeg);
+       background-size: cover;
+    padding: 80px;
+    color: white;
+      }
+      .at{
+        font-style: normal;
+        margin-left:55%;
+      }
+      button{
+        width: 120px;
+        height: 50px;
+        background-color: rgb(5, 5, 57);
+        color: white;
+        border-color: #000442;
+        font-size: larger;
+      }
+      .why{
+        text-align: center;
+        padding: 80px;
+        font-size: 3rem;
+        font-weight: lighter;
+        color: rgb(52, 49, 49);
+      }
+      .div7{
+        display: flex;
+        justify-content: space-between;
+        gap:170px;
+        margin-bottom: 30px;
+        margin-left: 160px;
+        margin-right: 100px;
+        font-weight: lighter;
+        color: rgb(52, 49, 49);
+        text-transform: initial;
+        line-height: 35px;
+               
+              }
+         #boy{
+            font-size: 30px;
+         }  
+         #man{
+            font-size: 30px;
+         }  
+         #joy{
+            font-size: 30px;
+         } 
+         .tour{margin-left: 220px;
+            margin-right: 100px;
+            font-weight: lighter;
+            color: rgb(52, 49, 49);
+            text-transform: initial;
+            margin-bottom: 40px;
+            font-size: large;
+            line-height: 30px;
+         }   
+        .h13{
+            font-size: 2rem;
+            color: #091071;
+            font-weight: bold;
+         }   
+         .div8{
+            background-image: url(image/lady.webp);
+            
+            text-align: center;
+            padding: 100px;
+            line-height: 50px;
+            color: white;
+            font-weight: bold;
+            background-size: cover;
+          
+         }   
+         .rem{
+            font-size: 3rem;
+         } 
+ .last{
+    display: flex;
+    justify-content: space-between;
+    gap:80px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 60px;
+    font-weight: lighter;
+  text-transform: initial;
+    line-height: 23px;
+    text-transform: capitalize;
+    
+ }
+ .hello{
+    color: rgb(27, 27, 98);
+    font-size: 1.5rem;
+ }
+
